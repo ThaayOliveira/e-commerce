@@ -1,6 +1,12 @@
 # build
-bin/
-obj/
+Ecommerce.API/bin/
+Ecommerce.API/obj/
+Ecommerce.Application/bin/
+Ecommerce.Application/obj/
+Ecommerce.Domain/bin/
+Ecommerce.Domain/obj/
+Ecommerce.Infrastructure/bin/
+Ecommerce.Infrastructure/obj/
 
 appsettings.Development.json
 appsettings.Local.json
