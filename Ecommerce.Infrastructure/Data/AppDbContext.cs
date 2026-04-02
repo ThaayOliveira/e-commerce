@@ -21,5 +21,13 @@ public class AppDbContext : DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
         base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<Categoria>().HasData(
+            new Categoria { Id = 1, Nome = "Roupas" },
+            new Categoria { Id = 2, Nome = "Acessórios" },
+            new Categoria { Id = 3, Nome = "Eletrônicos" }
+        );
+
     }
+
 }
