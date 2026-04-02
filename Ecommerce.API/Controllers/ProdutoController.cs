@@ -40,6 +40,7 @@ public class ProdutoController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = produto.Id }, produto);
     }
 
+    // [Authorize(Roles = "Admin")]
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, ProdutoCreateDTO dto)
     {

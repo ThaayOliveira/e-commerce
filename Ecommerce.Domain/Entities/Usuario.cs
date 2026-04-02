@@ -6,6 +6,7 @@ public class Usuario
     public string Nome { get; private set; } = null!;
     public string Email { get; private set; } = string.Empty;
     public string Senha { get; private set; } = string.Empty;
+    public string Role { get; set; } = "User";
 
     public Usuario(string nome, string email, string senha)
     {
