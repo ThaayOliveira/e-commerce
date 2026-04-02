@@ -2,11 +2,13 @@ using Ecommerce.Application.Interfaces;
 using Ecommerce.Application.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Ecommerce.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Ecommerce.API.Controllers;
 
+[Authorize]
 [ApiController]
-[Route("api/[controller]")]
+[Route("produto")]
 public class ProdutoController : ControllerBase
 {
     private readonly IProdutoService _service;

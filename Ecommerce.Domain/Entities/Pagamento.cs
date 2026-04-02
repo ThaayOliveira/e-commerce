@@ -7,5 +7,5 @@ public class Pagamento
     public int PedidoId { get; set; }
     public Pedido Pedido { get; set; }
 
-    public string Status { get; set; } // PENDENTE, PAGO, CANCELADO
+    public string Status { get; set; } = null!; // PENDENTE, PAGO, CANCELADO
 }

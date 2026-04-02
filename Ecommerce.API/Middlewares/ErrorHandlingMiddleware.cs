@@ -24,6 +24,14 @@ public class ErrorHandlingMiddleware
         {
             await HandleException(context, HttpStatusCode.NotFound, ex.Message);
         }
+        catch (BadRequestException ex)
+        {
+            await HandleException(context, HttpStatusCode.BadRequest, ex.Message);
+        }
+        catch (UnauthorizedException ex)
+        {
+            await HandleException(context, HttpStatusCode.Unauthorized, ex.Message);
+        }
         catch (ArgumentException ex)
         {
             await HandleException(context, HttpStatusCode.BadRequest, ex.Message);
