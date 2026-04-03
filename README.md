@@ -33,7 +33,6 @@ Essa separação foi adotada para:
 * facilitar testes
 * permitir evolução do sistema sem impacto global
 
----
 
 ## 🔐 Autenticação e Autorização
 
@@ -47,7 +46,6 @@ Essa separação foi adotada para:
 Login → geração de token → acesso protegido via header Authorization
 ```
 
----
 
 ## ✅ Validação
 
@@ -65,7 +63,6 @@ Validação implementada em duas camadas:
 
 👉 Essa abordagem garante **defesa em profundidade**
 
----
 
 ## ⚠️ Tratamento de erros
 
@@ -75,7 +72,6 @@ Middleware global responsável por:
 * isolamento de exceções
 * segurança (não expor detalhes internos)
 
----
 
 ## 📊 Logging
 
@@ -86,7 +82,6 @@ Middleware global responsável por:
   * falhas
   * eventos relevantes
 
----
 
 ## 📦 Funcionalidades atuais
 
@@ -97,7 +92,6 @@ Middleware global responsável por:
 * Validação robusta
 * Tratamento global de erros
 
----
 
 ## 🔜 Roadmap técnico
 
@@ -107,7 +101,6 @@ Middleware global responsável por:
 * Revogação de tokens
 * Policies (controle granular de acesso)
 
----
 
 ### ⚡ Performance
 
@@ -115,7 +108,6 @@ Middleware global responsável por:
 * Queries otimizadas (EF Core)
 * Cache distribuído (Redis)
 
----
 
 ### 🧪 Qualidade
 
@@ -123,7 +115,6 @@ Middleware global responsável por:
 * Testes de integração
 * Cobertura de código
 
----
 
 ### 📊 Observabilidade
 
@@ -131,7 +122,6 @@ Middleware global responsável por:
 * CorrelationId por request
 * Monitoramento
 
----
 
 ### 📈 Analytics
 
@@ -139,7 +129,6 @@ Middleware global responsável por:
 * Tracking de comportamento
 * Dashboard de métricas
 
----
 
 ### 🌐 Frontend
 
@@ -147,14 +136,12 @@ Middleware global responsável por:
 * Integração completa com API
 * Visualização de dados analíticos
 
----
 
 ## ▶️ Execução
 
 dotnet restore
 dotnet run
 
----
 
 ## 🧠 Objetivo do projeto
 
