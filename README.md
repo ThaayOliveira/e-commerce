@@ -1,5 +1,5 @@
 
-API backend para um sistema de e-commerce, projetada com foco em **arquitetura limpa, segurança, escalabilidade e boas práticas de engenharia**.
+API backend para um sistema de e-commerce de esportes, projetada com foco em **arquitetura limpa, segurança, escalabilidade e boas práticas de engenharia**.
 
 ---
 
