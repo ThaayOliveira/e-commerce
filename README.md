@@ -3,7 +3,7 @@ API backend para um sistema de e-commerce, projetada com foco em **arquitetura l
 
 ---
 
-## 🚀 Stack
+🚀 Stack
 
 * .NET 10 / ASP.NET Core
 * Entity Framework Core (PostgreSQL)
